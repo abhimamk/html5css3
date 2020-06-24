@@ -1,0 +1,158 @@
+// . {
+//   box-sizing: border-box;
+//   margin:0;
+//   padding: 0;
+// }
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+// Hader
+
+.page-header {
+  background-color: #222f3e;
+  color: #fff;
+  font-family: serif;
+  padding-left: 70px;
+}
+.page-header span {
+  margin-left: 5px;
+  color: rgb(13, 175, 162);
+}
+
+//  nav manu
+
+.nav-menu {
+  padding: 10px 0 10px 60px;
+}
+.nav-menu {
+  color: rgba(97, 126, 223, 0.8);
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.nav-menu a:hover {
+  color: #222f3e;
+  font-weight: 700;
+}
+.nav-menu li {
+  padding: 15px;
+}
+
+// header-image
+.header-image {
+  // background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  //   url(../assets/images/citilight13.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/assets/images/citilight13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.header-image h2 {
+  font: weight 300;
+  text-transform: uppercase;
+  font: size 35px;
+}
+.header-image p {
+  margin: 20px 170px;
+  text-align: center;
+}
+
+//  Journey way
+.journey-ways {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.journey-ways h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.journey-ways h2 {
+  color: rgb(187, 14, 14);
+  font-weight: 500;
+}
+#journey-explain {
+  color: #222f3e;
+  text-align: center;
+  margin-top: 10px;
+}
+.travel-ways {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  text-align: center;
+}
+.ways-to-travvel {
+  width: 30%;
+}
+.ways-to-travvel:nth-child(2) {
+  // margin-top:30px;
+}
+.ways-to-travvel h3 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #222f3e;
+}
+.ways-to-travvel p {
+  // margin-top: 5px;
+  color: #222f3e;
+}
+
+//  city gallery
+
+.city-images {
+  padding-top: 40px;
+  background-color: rgb(163, 214, 238);
+  color: #222f3e;
+}
+
+.images-of-city {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.city-image {
+  width: 29%;
+  margin-bottom: 20px;
+  background-color: #fbfbfb;
+
+}
+.city-image img {
+  width: 100%;
+}
+.city-image h1 {
+  padding:15px;
+  padding-top: 0px;
+}
+
+.city-image p {
+  padding: 0 10px 10px 15px;
+
+}
+// footer
+.footer{
+background: #222f3e;
+color:#fff;
+padding:20px 70px;
+text-align: center;
+}
